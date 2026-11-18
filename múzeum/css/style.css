@@ -1,16 +1,28 @@
-body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     font-size: 18xp;
     font-weight: 400;
     font-style: normal;
     line-height: 1.5;
     background-color: #FFFF00;
     color: #0000FF;
+    color: #000000;
 }
-.header{
-    background-color: #00FF00;
+
+/* Egyedi finomhangolások, amit a Bootstrap nem fed le teljesen alapból */
+
+
+.text-justify {
+    text-align: justify;
 }
-header p{
-    font-family: "Comic Sans MS";
-    color: #FF0000;
+
+/* Interaktivitás a menüpontokhoz */
+.menu-link {
+    transition: padding-left 0.2s ease-in-out, color 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.menu-link:hover {
+    padding-left: 5px;
+    color: #0a58ca !important;
 }
