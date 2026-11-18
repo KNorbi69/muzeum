@@ -7,3 +7,10 @@ body{
     background-color: #FFFF00;
     color: #0000FF;
 }
+.header{
+    background-color: #00FF00;
+}
+header p{
+    font-family: "Comic Sans MS";
+    color: #FF0000;
+}
