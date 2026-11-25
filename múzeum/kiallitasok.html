@@ -1,99 +1,83 @@
-<!DOCTYPE html>
-<html lang="hu">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kiállítások és jegyárak | Múzeum</title>
-  <!-- Bootstrap 5 CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Egyedi minimális kiegészítő stílusok -->
-  <link rel="stylesheet" href="css/style.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Kiállítások és jegyárak</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-light text-dark">
+<body>
+  
 
-  <!-- Fejléc -->
-  <header class="bg-dark text-white py-4 mb-4 shadow-sm text-center">
-    <div class="container">
-      <h1 class="h3 text-uppercase fw-bold m-0">Aktuális tárlatok és belépőjegyek</h1>
-    </div>
-  </header>
+<header>
+  <marquee>
+    <b>Aktuális tárlatok és belépőjegyek!!!</b>
+  </marquee>
+</header>
 
-  <!-- Fő tartalom konténer (Bootstrap Grid rendszer használatával) -->
-  <div class="container mb-5">
-    <div class="row g-4">
+
+<main>
+<table class="w-100 border border-5">
+  <tr>
+    <td class="w-25" valign="top" bgcolor="#FF00FF">
+      <font face="Times New Roman" size="4" color="#FFFFFF">
+        <b><u>MENÜPONTJAINK:</u></b><br><br>
+        * <a href="index.html">Főoldal</a><br><br>
+        * <a href="kiallitasok.html">Kiállítások és árak</a><br><br>
+      </font>
+      <hr>
+      <font size="2" color="#000000">Utolsó frissítés: 1999. 11. 18.</font>
+    </td>
+    
+    <td width="75%" valign="top" bgcolor="#FFFFFF">
+      <font face="Courier New" size="5" color="#008000"><u><b>Időszaki kiállításunk</b></u></font>
+      <p align="justify">
+        <font face="Comic Sans MS" size="3" color="#000000">
+          <b>Régi mesterségek nyomában:</b> Ebben a hónapban a kovácsok, fazekasok és takácsok eredeti szerszámait tekinthetik meg a kedves látogatók a nagyteremben!
+        </font>
+      </p>
       
-      <!-- Oldalsó navigáció -->
-      <nav class="col-lg-3">
-        <div class="bg-white p-4 rounded border shadow-sm h-100">
-          <h2 class="h5 text-primary border-bottom pb-2 mb-3">Menüpontjaink</h2>
-          <ul class="list-unstyled mb-4">
-            <li class="mb-2"><a href="index.html" class="text-decoration-none text-primary fw-semibold menu-link">Főoldal</a></li>
-            <li class="mb-2"><a href="kiallitasok.html" class="text-decoration-none text-primary fw-semibold menu-link">Kiállítások és árak</a></li>
-          </ul>
-          <div class="small text-muted border-top pt-3">
-            Utolsó frissítés: 1999. 11. 18.
-          </div>
-        </div>
-      </nav>
+      <br>
 
-      <!-- Fő tartalmi rész -->
-      <main class="col-lg-9">
-        <div class="bg-white p-4 p-md-5 rounded border shadow-sm">
-          
-          <!-- Időszaki kiállítás -->
-          <section class="mb-5">
-            <h2 class="h4 text-primary mb-3">Időszaki kiállításunk</h2>
-            <p class="text-justify mb-0">
-              <strong class="text-dark">Régi mesterségek nyomában:</strong> Ebben a hónapban a kovácsok, fazekasok és takácsok eredeti szerszámait tekinthetik meg a kedves látogatók a nagyteremben!
-            </p>
-          </section>
+      <font face="Arial" size="4" color="#FF0000"><b><u>Belépőjegy árak (2026):</u></b></font>
+      <br><br>
 
-          <!-- Jegyárak szekció -->
-          <section>
-            <h2 class="h4 text-primary mb-3">Belépőjegy árak (2026)</h2>
-            
-            <div class="table-responsive">
-              <table class="table table-bordered table-striped align-middle mb-3">
-                <thead class="table-dark">
-                  <tr>
-                    <th>Jegytípus</th>
-                    <th class="text-end">Ár</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Felnőtt jegy</td>
-                    <td class="text-end fw-bold text-danger">2000 Ft</td>
-                  </tr>
-                  <tr class="table-success">
-                    <td>Diák / Nyugdíjas jegy</td>
-                    <td class="text-end fw-bold text-danger">1000 Ft</td>
-                  </tr>
-                  <tr>
-                    <td>Családi jegy (2 felnőtt + 2 gyerek)</td>
-                    <td class="text-end fw-bold text-danger">4500 Ft</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+      <center>
+        <table width="90%" border="4" cellpadding="8" cellspacing="4" bgcolor="#FFFFCC" bordercolor="#FF0000">
+          <tr bgcolor="#000080">
+            <th><font face="Arial" color="#FFFFFF" size="3">Jegytípus</font></th>
+            <th><font face="Arial" color="#FFFFFF" size="3">Ár</font></th>
+          </tr>
+          <tr>
+            <td><font face="Comic Sans MS" color="#000000">Felnőtt jegy</font></td>
+            <td align="right"><font face="Courier New" color="#FF0000"><b>2000 Ft</b></font></td>
+          </tr>
+          <tr bgcolor="#CCFFCC">
+            <td><font face="Comic Sans MS" color="#000000">Diák / Nyugdíjas jegy</font></td>
+            <td align="right"><font face="Courier New" color="#FF0000"><b>1000 Ft</b></font></td>
+          </tr>
+          <tr>
+            <td><font face="Comic Sans MS" color="#000000">Családi jegy (2 felnőtt + 2 gyerek)</font></td>
+            <td align="right"><font face="Courier New" color="#FF0000"><b>4500 Ft</b></font></td>
+          </tr>
+        </table>
+      </center>
 
-            <p class="text-center small text-muted fst-italic mt-3">
-              Csoportoknak előzetes bejelentkezés szükséges telefonon!
-            </p>
-          </section>
-
-        </div>
-      </main>
-
-    </div>
-  </div>
-
-  <!-- Lábléc -->
-  <footer class="bg-dark text-white text-center py-3 border-top border-primary border-4">
-    <div class="container small">
-      Cím: 1051 Budapest, Múzeum köz 4. | Nyitvatartás: Kedd–Vasárnap 10:00–18:00
-    </div>
-  </footer>
+      <br>
+      <center>
+        <font face="Times New Roman" size="2" color="#800080"><i>Csoportoknak előzetes bejelentkezés szükséges telefonon!</i></font>
+      </center>
+    </td>
+  </tr>
+</table>
+</main>
+<br>
+<hr size="5" color="#FF0000">
+<center>
+  <font face="Verdana" size="2" color="#000000">
+    Cím: 1051 Budapest, Múzeum köz 4. | Nyitvatartás: Kedd-Vasárnap 10:00-18:00
+  </font>
+</center>
 
 </body>
 </html>

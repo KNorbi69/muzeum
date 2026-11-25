@@ -6,23 +6,20 @@ body {
     line-height: 1.5;
     background-color: #FFFF00;
     color: #0000FF;
-    color: #000000;
+
+
 }
 
-/* Egyedi finomhangolások, amit a Bootstrap nem fed le teljesen alapból */
-
-
-.text-justify {
-    text-align: justify;
+a{
+    color: #FF0000;
 }
-
-/* Interaktivitás a menüpontokhoz */
-.menu-link {
-    transition: padding-left 0.2s ease-in-out, color 0.2s ease-in-out;
-    display: inline-block;
+marquee{
+    color: #00FF00;
+    width: 80%;
+    font-family: "Comic Sans MS";
+    font-size: 40px;
+    color: #FF0000;
 }
-
-.menu-link:hover {
-    padding-left: 5px;
-    color: #0a58ca !important;
+table{
+    background-color: #00FFFF;
 }
