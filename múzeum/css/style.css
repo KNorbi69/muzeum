@@ -23,3 +23,73 @@ marquee{
 table{
     background-color: #00FFFF;
 }
+td{
+    vertical-align: top;
+    background-color: #FF00FF;
+}
+.tnr{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: #FFFFFF;
+}
+li{
+    list-style-type: "*";
+}
+.fs2{
+    font-size: 15px;
+    color: #000000;
+}
+.feher{
+    background-color: #FFFFFF;
+}
+.cn{
+    font-family: "Courier New";
+    font-size: 35px;
+    color: #008000;
+}
+.cs{
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    color: #000000;
+}
+.arial{
+    font-family: "Arial";
+    font-size: 15px;
+    color: #FF0000;
+}
+.w-90{
+    width: 90%;
+    background-color: #FFFFCC;
+    border-color: #FF0000;
+}
+.bg-kek{
+    background-color: #000080;
+}
+th{
+    font-family: "Arial";
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.td1{
+    font-size: "Comic Sans MS";
+    color: #000000;
+}
+.td2{
+    text-align: right;
+    font-family: "Courier New";
+    color: #FF0000;
+}
+.bg-rozsa{
+    background-color: #CCFFCC;
+}
+.pfoot{
+    font-family: "Times New Roman";
+    font-size: 10px;
+    color: #800080;
+}
+footer{
+    border-color: #FF0000;
+    font-family: "Verdana";
+    font-size: 15px;
+    color: #000000;
+}
