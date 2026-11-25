@@ -14,3 +14,61 @@ header center font{
     font-family: "Comic Sans MS";
     color: #FF0000;
 }
+
+table{
+    background-color: #00FFFF;
+}
+
+td{
+    background-color: #FF00FF;
+}
+
+.roman{
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+.tabla{
+    background-color: #FFFFFF;
+    vertical-align: top;
+
+}
+
+h2{
+    color: #008000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.bemutatkozas{
+    text-align: justify;
+}
+
+.info{
+    font-family: 'Comic Sans MC';
+    font-size: 16px;
+    color: #000000;
+}
+
+.cim{
+    font-family: 'Verdana';
+    font-size: 14px;
+    color: #000000;
+}
+
+hr{
+    font-size: 20px;
+    color: #FF0000;
+}
+
+.kiallitas{
+    color: #FF0000;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cs{
+    font-family: 'Comic Sans MS'
+}
